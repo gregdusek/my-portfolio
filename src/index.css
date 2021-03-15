@@ -1,13 +1,4 @@
-* {
-  border: 2px solid black;
-}
-
 body {
-  margin: 0 auto;
-  padding: 0 auto;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+    margin: 0;
+  }
+  
