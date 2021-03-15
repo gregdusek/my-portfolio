@@ -1,8 +1,13 @@
+* {
+  border: 2px solid black;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
 .App {
   font-family: 'Inconsolata', monospace;
+  width: 100%;
   height: auto;
-  width: 100vw;
   max-width: 1920px;
   max-height: 1080px;
   margin: 0 auto;
