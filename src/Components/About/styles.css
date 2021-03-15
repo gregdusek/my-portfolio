@@ -1,0 +1,19 @@
+.about-container {
+    display: column;
+    margin: 1rem auto;
+    padding: 1rem auto;
+    width: 50%;
+    height: auto;
+}
+
+.about-title {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.about-para {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 auto;
+}
