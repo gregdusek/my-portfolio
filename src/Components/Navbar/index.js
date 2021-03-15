@@ -1,15 +1,16 @@
 import './styles.css';
+import { Link } from 'react-router-dom';
 
 const Navigate = () => {
     return (
         <div className="navbar">
-            <a href="home" className="nav-link">HOME</a>
-            <a href="about" div className="nav-link" >ABOUT ME</a>
-            <a href="skills" className="nav-link">SKILLS</a>
-            <a href="experience" className="nav-link">EXPERIENCE</a>
-            <a href="portfolio" className="nav-link">PORTFOLIO</a>
-            <a href="toolbox" className="nav-link">TOOLBOX</a>
-            <a href="contact" className="nav-link">CONTACT</a>
+            <Link className="nav-link" to='/'>HOME</Link>
+            <Link className="nav-link" to='/About'>ABOUT ME</Link>
+            <Link className="nav-link" to='/Skills'>SKILLS</Link>
+            <Link className="nav-link" to='/Experience'>EXPERIENCE</Link>
+            <Link className="nav-link" to='/Portfolio'>PORTFOLIO</Link>
+            <Link className="nav-link" to='/Toolbox'>TOOLBOX</Link>
+            <Link className="nav-link" to='/Contact'>CONTACT</Link>
         </div>
     )
 }
