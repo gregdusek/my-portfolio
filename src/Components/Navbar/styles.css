@@ -1,16 +1,17 @@
 .navbar {
     display: flex;
     height: 2rem;
-    width: 80%;
-    margin: 1rem auto;
-    padding: 1rem auto;
+    width: 45%;
+    margin: auto;
+    padding: auto;
     border: 3px solid;
     /* justify-content: space-between; */
 
 }
 
 .nav-link {
-    font-weight: 600;
+    font-size: 1.25rem;
+    font-weight: bold 600;
     margin:  auto;
     /* padding: 1rem; */
 }
