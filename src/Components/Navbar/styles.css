@@ -1,17 +1,18 @@
 .navbar {
     display: flex;
-    height: 2rem;
-    width: 45%;
-    margin: auto;
-    padding: auto;
-    /* justify-content: space-between; */
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 auto;
+    
 
 }
 
 .nav-link {
-    font-size: 1.25rem;
-    font-weight: bold 600;
-    margin:  auto;
+    font-size: 1.50rem;
+    font-weight: 800px;
+    margin:  1.5rem auto;
     text-decoration: none;
-    /* padding: 1rem; */
+    text-decoration-color: none;
+    justify-content: space-between;
 }
