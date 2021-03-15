@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    height: 2rem;
+    width: 80%;
+    margin: 1rem auto;
+    padding: 1rem auto;
+    border: 3px solid;
+    /* justify-content: space-between; */
+
+}
+
+.nav-link {
+    font-weight: 600;
+    margin:  auto;
+    /* padding: 1rem; */
+}
