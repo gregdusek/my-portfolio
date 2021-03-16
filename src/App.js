@@ -14,16 +14,17 @@ function App() {
   return (
     <div className="App">
       <Navigate />
-      <About />
-      {/* <Switch> */}
-          <Switch path='/' exact component={Home} />
-          <Switch path='/About' exact component={About} />
-          <Switch path='/Experience' exact component={Experience} />
-          <Switch path='/Skills' exact component={Skills} />
-          <Switch path='/Portfolio' exact component={Portfolio} />
-          <Switch path='/Toolbox' exact component={Toolbox} />
-          <Switch path='/Contact' exact component={Contact} />
-      {/* </Switch> */}
+      {/* <About />
+      <Skills /> */}
+      <Switch>
+          <Route path='/' exact component={Home} />
+          <Route path='/About' exact component={About} />
+          <Route path='/Experience' exact component={Experience} />
+          <Route path='/Skills' exact component={Skills} />
+          <Route path='/Portfolio' exact component={Portfolio} />
+          <Route path='/Toolbox' exact component={Toolbox} />
+          <Route path='/Contact' exact component={Contact} />
+      </Switch>
     </div>
   );
 }
