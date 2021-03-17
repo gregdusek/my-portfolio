@@ -1,5 +1,4 @@
 import './styles.css';
-import myPic from '../../Resources/CWP-271_sized.jpg'
 
 const About = () => {
     return (
@@ -15,7 +14,7 @@ const About = () => {
                     Whether you need an e-commerce site, blog, personal portfolio, or useful software, I can help you bring that idea to fruition. Details on how to contact me is available on my contact page.</p>
                 </div>
                 <div className='column-2'>
-                    <img src={myPic} className='about-image' alt='' />
+                    <img src='https://res.cloudinary.com/gregdusek/image/upload/v1615957747/Dev%20Language%20Icons/CWP-271_sized_av7zgj.jpg' className='about-image' alt='' />
                 </div>
                 <div className='column-3'>
                 <h1 className='column-title'>MY HOBBIES & INTERESTS</h1>
