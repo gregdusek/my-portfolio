@@ -1,0 +1,142 @@
+.skills-container {
+    display: column;
+    margin: 2rem auto;
+    max-width: 90%;
+    max-height: auto;
+}
+
+.page-title {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    margin: 1rem auto;
+    padding: 1rem auto;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.column-container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.column-language {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin: 1rem auto;
+}
+
+.column-frontend {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin: 1rem auto;
+}
+
+.column-backend {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin: 1rem auto;
+}
+
+.column-databases {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin: 1rem auto;
+}
+
+.column-tools {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin: 1rem auto;
+}
+
+.column-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.language-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1rem auto;
+}
+
+.frontend-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1rem auto;
+    padding: 0 auto;
+}
+
+.backend-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1rem auto;
+    padding: 0 auto;
+}
+
+.databases-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1rem auto;
+    padding: 0 auto;
+}
+
+.tools-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1rem auto;
+    padding: 0 auto;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: .50rem auto;
+}
+
+.icon {
+    height: 108px;
+    width: 108px;
+    border-radius: .5rem;
+    margin: .75rem .75rem .75rem .75rem;
+} 
+
+.icon-name {
+    display: flex;
+    font-weight: 700;
+    font-size: 1.20rem;
+    justify-content: center;
+    margin: -1rem 0 0 0;
+}
