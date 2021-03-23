@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;900&display=swap');
+
 .skills-container {
     display: column;
     margin: 2rem auto;
@@ -6,13 +8,14 @@
 }
 
 .page-title {
+    font-family: 'Inconsolata', monospace;
     display: flex;
     justify-content: center;
     width: 30%;
     margin: 1rem auto;
     padding: 1rem auto;
     font-size: 3.5rem;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .column-container {
@@ -68,6 +71,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 5%;
+    font-weight: 400;
 }
 
 .language-container {
