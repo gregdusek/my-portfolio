@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;900&display=swap');
+
+.experience-container {
+    display: column;
+    margin: 2rem auto;
+    max-width: 90%;
+    max-height: auto;
+}
+
+.page-title {
+    font-family: 'Inconsolata', monospace;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    margin: 1rem auto;
+    padding: 1rem auto;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.training-title {
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-weight: 400;
+}
+
+.training-row {
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.training-paragraph {
+    justify-content: center;
+    width: 95%;
+    height: auto;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.background-title {
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-weight: 400;
+}
+
+.background-row {
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.background-paragraph {
+    justify-content: center;
+    width: 95%;
+    height: auto;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.column-container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.column-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 32%;
+    margin: 0 auto;
+}
+
+.column-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 32%;
+    margin: 0 auto;
+}
+
+.column-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 32%;
+    margin: 0 auto;
+}
+
+.column-title {
+    display: flex;
+    width: 95%;
+    justify-content: left;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: -1rem auto;
+}
