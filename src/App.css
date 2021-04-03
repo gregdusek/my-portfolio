@@ -5,13 +5,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;900&display=swap');
 
 .App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: 'Inconsolata', monospace;
-  width: 100%;
-  height: auto;
   max-width: 1920px;
   max-height: 1080px;
-  margin: 0 auto;
-  padding: 0 auto;
+  width: 100vw;
+  height: auto;
+  margin: 1rem auto;
   overflow: hidden;
 }
 
+.page-title {
+  font-family: 'Inconsolata', monospace;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  margin: 1rem 1rem 1rem 1rem;
+  font-size: 2.5vw;
+  font-weight: 500;
+}
