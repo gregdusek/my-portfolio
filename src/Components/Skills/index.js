@@ -4,9 +4,9 @@ const Skills = () => {
     return (
         <div className='skills-container'>
             <h2 className='page-title'>TECHNICAL SKILLS</h2>
-            <div className='column-container'>
+            <div className='skillsColumn-container'>
                 <div className='column-language'>
-                    <h1 className='column-title'>Languages</h1>
+                    <h1 className='columnType-title'>Languages</h1>
                         <div className='language-container'>
                             <div className='icon-container'>
                                 <img className='icon' src='https://res.cloudinary.com/gregdusek/image/upload/v1615957750/Dev%20Language%20Icons/html5_lmrgt0.svg' alt='svg'/>
@@ -29,7 +29,7 @@ const Skills = () => {
                         </div>
                 </div>
                 <div className='column-frontend'>
-                    <h1 className='column-title'>Frontend</h1>
+                    <h1 className='columnType-title'>Frontend</h1>
                         <div className='frontend-container'>
                             <div className='icon-container'>
                                 <img className='icon' src='https://res.cloudinary.com/gregdusek/image/upload/v1615957741/Dev%20Language%20Icons/react_xjy6ou.svg' alt='svg'/>
@@ -52,7 +52,7 @@ const Skills = () => {
                         </div>
                 </div>
                 <div className='column-backend'>
-                    <h1 className='column-title'>Backend</h1>
+                    <h1 className='columnType-title'>Backend</h1>
                     <div className='backend-container'>
                             <div className='icon-container'>
                                 <img className='icon' src='https://res.cloudinary.com/gregdusek/image/upload/v1615957743/Dev%20Language%20Icons/nodejs-1_jtj3is.svg' alt='svg'/>
@@ -77,7 +77,7 @@ const Skills = () => {
                         </div>
                 </div>
                 <div className='column-databases'>
-                    <h1 className='column-title'>Databases/Hosting</h1>
+                    <h1 className='columnType-title'>Databases/Hosting</h1>
                     <div className='databases-container'>
                             <div className='icon-container'>
                                 <img className='icon' src='https://res.cloudinary.com/gregdusek/image/upload/v1615957739/Dev%20Language%20Icons/postgresql_ltbseu.svg' alt='svg'/>
@@ -92,7 +92,7 @@ const Skills = () => {
                                 <img className='icon' src='https://res.cloudinary.com/gregdusek/image/upload/v1615957745/Dev%20Language%20Icons/digitalocean_ulmslp.svg' alt='svg'/>
                             </div>
                             <div className='icon-container'>
-                                <img className='icon' src='https://res.cloudinary.com/gregdusek/image/upload/v1615957745/Dev%20Language%20Icons/amazonwebservice_skpi40.svg' alt='svg'/>
+                                <div className='icon' src='' alt='doc'/>
                             </div>
                             <div className='icon-container'>
                                 <img className='icon' src='https://res.cloudinary.com/gregdusek/image/upload/v1615973097/Dev%20Language%20Icons/Netlify-Logo.wine_dlteet.svg' alt='svg'/>
@@ -100,7 +100,7 @@ const Skills = () => {
                         </div>
                 </div>
                 <div className='column-tools'>
-                    <h1 className='column-title'>Tools</h1>
+                    <h1 className='columnType-title'>Tools</h1>
                     <div className='tools-container'>
                             <div className='icon-container'>
                                 <img className='icon' src='https://res.cloudinary.com/gregdusek/image/upload/v1615973500/Dev%20Language%20Icons/postman-logo-stacked_wgz311.svg' alt='svg'/>
