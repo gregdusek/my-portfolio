@@ -8,7 +8,6 @@ import Home from './Components/Home';
 import Navigate from './Components/Navbar';
 import Portfolio from './Components/Portfolio';
 import Skills from './Components/Skills';
-import Toolbox from './Components/Toolbox';
 
 function App() {
   return (
@@ -22,7 +21,6 @@ function App() {
           <Route path='/Experience' exact component={Experience} />
           <Route path='/Skills' exact component={Skills} />
           <Route path='/Portfolio' exact component={Portfolio} />
-          <Route path='/Toolbox' exact component={Toolbox} />
           <Route path='/Contact' exact component={Contact} />
       </Switch>
     </div>
