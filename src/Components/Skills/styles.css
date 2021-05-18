@@ -23,7 +23,7 @@
     justify-content: center;
     width: 22%;
     height: auto;
-    margin: 1rem 1rem 1rem 1rem;
+    margin: .5rem .5rem .5rem .5rem;
 }
 
 .column-frontend {
@@ -32,7 +32,7 @@
     justify-content: center;
     width: 22%;
     height: auto;
-    margin: 1rem 1rem 1rem 1rem;
+    margin: .5rem .5rem .5rem .5rem;
 }
 
 .column-backend {
@@ -41,7 +41,7 @@
     justify-content: center;
     width: 22%;
     height: auto;
-    margin: 1rem 1rem 1rem 1rem;
+    margin: .5rem .5rem .5rem .5rem;
 }
 
 .column-databases {
@@ -50,7 +50,7 @@
     justify-content: center;
     width: 22%;
     height: auto;
-    margin: 1rem 1rem 1rem 1rem;
+    margin: .5rem .5rem .5rem .5rem;
 }
 
 .column-tools {
@@ -59,7 +59,7 @@
     justify-content: center;
     width: 22%;
     height: auto;
-    margin: 1rem 1rem 1rem 1rem;
+    margin: .5rem .5rem .5rem .5rem;
 }
 
 .columnType-title {
@@ -119,7 +119,7 @@
 }
 
 .icon {
-    height: 98px;
-    width: 98px;
+    height: 10vh;
+    width: 10vh;
     border-radius: .5rem;
 } 
