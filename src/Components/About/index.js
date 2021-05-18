@@ -13,19 +13,25 @@ const About = () => {
                     <br/><br/>
                     Whether you need an e-commerce site, blog, personal portfolio, or useful software, I can help you bring that idea to fruition. Details on how to contact me is available on my contact page.</p>
                 </div>
-                <img className='about-2' src='https://res.cloudinary.com/gregdusek/image/upload/v1615957747/Dev%20Language%20Icons/CWP-271_sized_av7zgj.jpg' alt='' /> 
+                <div className='about-2'>
+                    <img className='about-img' src='https://res.cloudinary.com/gregdusek/image/upload/v1615957747/Dev%20Language%20Icons/CWP-271_sized_av7zgj.jpg' alt='' /> 
+                </div>
                 <div className='about-3'>
                 <h1 className='aboutRight-title'>MY HOBBIES & INTERESTS</h1>
-                    <p className='column-paragraph2'>Coding I don't consider a job because I enjoy it so much. But when I'm not behind the keyboard coding, you can find me out enjoying on of the following activities:
+                    <p className='column-paragraph2'>There's a number of activities and hobbies I enjoy when I'm not behind the keyboard working on code.
                     <br/><br/>
 
-                            <li>Spending time with my wife.</li>
-                            <li>Spending time with my dogs Bella (German Shepherd)& Beau (Belgian Malinois).</li>
-                            <li>Fly fishing.</li>
-                            <li>Listening to music (I'm an audiophile).</li>
-                            <li>Hitting offroad trails in my Jeep Wrangler.</li>
-                            <li>Camping.</li>
-                            <li>Watching hockey.</li>
+                            <li>Enjoying the company of my wife</li>
+                            <li>Playing outside with my dogs</li>
+                            <li>Fly fishing</li>
+                            <li>Listening to music</li>
+                            <li>Exploring the offroad trails in my jeep</li>
+                            <li>Camping</li>
+                            <li>Watching sports</li>
+                            <li>Studying the market for the next investment</li>
+                            <li>Cooking or grilling</li>
+                            <li>Sipping my favorite bourbon</li>
+                            <li>Spending time with friends and family</li>
                             <br/>
                     </p>
                 </div>
