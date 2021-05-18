@@ -1,8 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;900&display=swap');
+
 .portfolio-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin: 1rem 1rem 1rem 1rem;
+    margin: 1rem auto;
     max-width: 90%;
     max-height: auto;
 }
+
+.portfolio-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+    height: auto;
+    margin: 1rem auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 28%;
+    height: auto;
+    margin: .5rem .5rem .5rem .5rem;
+    border-radius: 10px;
+}
+.card-top {
+    display: flex;
+    object-fit: cover;
+    height: auto;
+    margin: .5rem .5rem .0rem .5rem;
+}
+
+.card-bottom {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0 .5rem .5rem .5rem;
+}
+
+.card-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+.card-description {
+    display: flex;
+    justify-content: left;
+    line-height: 1vw;
+    font-size: .75vw;
+}
+
+.lang-used {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.lang-icon-container {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+}
+
+.lang-icon {
+    height: 4vh;
+    width: 4vh;
+    border-radius: .5rem;
+} 
+
+.link-container {
+    display: flex;
+    flex-direction: row;
+    width: 20vh;
+    height: auto;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.deployed-link {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    line-height: 1vw;
+    font-size: .75vw;
+}
+
+
