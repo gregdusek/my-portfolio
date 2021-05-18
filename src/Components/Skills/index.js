@@ -68,11 +68,9 @@ const Skills = () => {
                             </div>
                             <div className='icon-container'>
                                 <div className='icon' src='' alt='svg'/>
-
                             </div>
                             <div className='icon-container'>
                                 <div className='icon' src='' alt='svg'/>
-
                             </div>
                         </div>
                 </div>
