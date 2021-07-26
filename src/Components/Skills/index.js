@@ -3,7 +3,7 @@ import './styles.css';
 const Skills = () => {
     return (
         <div className='skills-container'>
-            <h2 className='page-title'>TECHNICAL SKILLS</h2>
+            <h2 className='page-title'>Technical Skills</h2>
             <div className='skillsColumn-container'>
                 <div className='column-language'>
                     <h1 className='columnType-title'>Languages</h1>
@@ -119,6 +119,7 @@ const Skills = () => {
                                 <img className='icon' src='https://res.cloudinary.com/gregdusek/image/upload/v1615957740/Dev%20Language%20Icons/discord_ygs0ff.svg' alt='svg'/>
                             </div>
                         </div>
+                        
                 </div>
             </div>
         </div>
