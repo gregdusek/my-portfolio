@@ -23,6 +23,7 @@ function App() {
           <Route path='/Portfolio' exact component={Portfolio} />
           <Route path='/Contact' exact component={Contact} />
       </Switch>
+        <p className="footer-text">Designed by Greg Dusek Ⓒ 2021</p>
     </div>
   );
 }
