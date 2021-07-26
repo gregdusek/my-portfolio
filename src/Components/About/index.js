@@ -3,7 +3,7 @@ import './styles.css';
 const About = () => {
     return (
         <div className='about-container'>
-            <h1 className='page-title'>ABOUT ME</h1>
+            <h1 className='page-title'>About Me</h1>
             <div className='aboutColumn-container'>
                 <div className='about-1'>
                     <h1 className='aboutLeft-title'>HEY, I'M GREG!</h1>
@@ -11,7 +11,9 @@ const About = () => {
                     <br/><br/>
                     Born in a small town and raised in a big city, at a young age I learned how to thrive in a fast paced environment while maintaining my southern charm. Tenure within multiple fields has taught me valuable skills leading to my success today.
                     <br/><br/>
-                    Whether you need an e-commerce site, blog, personal portfolio, or useful software, I can help you bring that idea to fruition. Details on how to contact me is available on my contact page.</p>
+                    Whether you need an e-commerce site, blog, personal portfolio, or useful software, I can help you bring that idea to fruition. Details on how to contact me is available on my contact page.
+                    <br/><br/></p>
+                    
                 </div>
                 <div className='about-2'>
                     <img className='about-img' src='https://res.cloudinary.com/gregdusek/image/upload/v1615957747/Dev%20Language%20Icons/CWP-271_sized_av7zgj.jpg' alt='' /> 
@@ -20,7 +22,6 @@ const About = () => {
                 <h1 className='aboutRight-title'>MY HOBBIES & INTERESTS</h1>
                     <p className='column-paragraph2'>There's a number of activities and hobbies I enjoy when I'm not behind the keyboard working on code.
                     <br/><br/>
-
                             <li>Enjoying the company of my wife</li>
                             <li>Playing outside with my dogs</li>
                             <li>Fly fishing</li>
