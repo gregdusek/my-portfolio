@@ -7,14 +7,14 @@
 .App {
   display: flex;
   flex-direction: column;
-  align-items: center;
   font-family: 'Inconsolata', monospace;
-  max-width: 1920px;
-  max-height: 1080px;
-  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  width: 97vw;
   height: auto;
-  margin: 1rem auto;
-  overflow: hidden;
+  margin: 1rem 1rem 1rem 1rem;
+
+  /* overflow: hidden; */
 }
 
 .page-title {
