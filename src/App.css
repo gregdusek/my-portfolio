@@ -17,6 +17,14 @@
   /* overflow: hidden; */
 }
 
+.page-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  max-width: 90%;
+  max-height: auto;
+}
+
 .page-title {
   font-family: 'Inconsolata', monospace;
   display: flex;
