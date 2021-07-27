@@ -7,42 +7,44 @@
     width: 90%;
     height: auto;
     margin: 1rem auto;
+    background-color:lightblue;
 }
 
 .about-1 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 33%;
+    justify-content: space-evenly;
+    width: 30%;
     height: auto;
-    margin: .5rem .5rem .5rem .5rem;
+    margin: 1rem auto;
 }
 
 .about-2 {
     display: flex;
     justify-content: center;
-    width: 33%;
+    width: auto;
     height: auto;
     object-fit: center;
-    margin: .5rem .5rem .5rem .5rem;
+    margin: 1rem auto;
 }
 
 .about-img {
     display: flex;
+    justify-content: center;
     width: auto;
-    height: 41vh;
-    object-fit: cover;
+    height: 45vh;
+    object-fit: scale-down;
     border-radius: 10px;
-    margin: .5rem auto;
+    margin: auto;
 }
 
 .about-3 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 33%;
+    justify-content: space-evenly;
+    width: 30%;
     height: auto;
-    margin: .5rem .5rem .5rem .5rem;
+    margin: 1rem auto;
 }
 
 
