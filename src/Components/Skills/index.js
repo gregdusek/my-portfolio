@@ -2,7 +2,7 @@ import './styles.css';
 
 const Skills = () => {
     return (
-        <div className='skills-container'>
+        <div className='page-container'>
             <h2 className='page-title'>Technical Skills</h2>
             <div className='skillsColumn-container'>
                 <div className='column-language'>
