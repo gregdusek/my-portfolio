@@ -10,7 +10,7 @@ const Portfolio = () => {
                         <img className="card-top" src="https://res.cloudinary.com/gregdusek/image/upload/v1621296234/Dev%20Site%20Images/ElenaJohnsonArt_qvsv8j.png" alt="" />
                         <div className="card-bottom">
                             <div className="card-title">Elena Johnson Art</div>    
-                            <p className="card-description">Built on the Wix platform; Elena and I worked together to create a portfolio website to show off her artwork. Elena had an existing Wix Pro membership, the artistic talent, and needed a hand on the technical front. After commissioning Elena for an art piece, I realized she didn't have a website and offered my services. Check out her work below! </p>
+                            <p className="card-description"> Elena had a Wix Pro membership, the artistic talent, but no portfolio site, and needed a hand on the technical front. I reached out to Elena after commissioning her for some art and offered to build her a portfolio. Using the Wix platform, I built her a portfolio site to build her brand, establish an e-commerce store, and expand her online presence.</p>
                             <div className="lang-used">
                                 <div className='lang-icon-container'>
                                     <div className='lang-icon' src='' alt=''/>
@@ -57,7 +57,7 @@ const Portfolio = () => {
                         <img className="card-top" src="https://res.cloudinary.com/gregdusek/image/upload/v1621302773/Dev%20Site%20Images/GOATflix_cljvkq.png" alt="" />
                         <div className="card-bottom">
                             <div className="card-title">GOATflix</div>    
-                            <p className="card-description">GOATflix is a continuation of an earlier school project. Final project requirements included learning a new framework, language, or component, to be used in the project. GOATflix is built from React Redux on the frontend, MongoDB on the backend, pulls data via The Movie Database api, and is styled with Styled Components. </p>
+                            <p className="card-description"> GOATflix is my final project subimission and an ongoing project. The final project requirements included learning a new frontend or backend framework, language, or component, to be used in the project. GOATflix is movie search app built from React Redux, MongoDB, and queries data via The MovieDB API, and is styled with Styled Components. </p>
                             <div className="lang-used">
                                 <div className='lang-icon-container'>
                                     <img className='lang-icon' src='https://res.cloudinary.com/gregdusek/image/upload/v1615957741/Dev%20Language%20Icons/react_xjy6ou.svg' alt='svg'/>
@@ -82,7 +82,7 @@ const Portfolio = () => {
                         <img className="card-top" src="https://res.cloudinary.com/gregdusek/image/upload/v1621356416/Dev%20Site%20Images/InstaInspire_gw1alu.png" alt="" />
                         <div className="card-bottom">
                             <div className="card-title">Insta-Inspire</div>    
-                            <p className="card-description">Insta-Inspire is the group project for the General Assembly Software Engineering Immersive program. We were asked to develop a simple CRUD app with Ruby on Rails on the back-end and React on the front-end. We chose an inspirational quote feed to show all our functioning routes. My role was front end development.</p>
+                            <p className="card-description">Insta-Inspire is the collaborative effort from a group of four software engineers tasked to working as a group for the first time to build a project. The group was required to develop a simple CRUD app with REACT, Ruby, and Ruby on Rails. We chose an inspirational quote feed to show all our functioning routes. I was assigned to developing the RESTful routes on the frontend.</p>
                             <div className="lang-used">
                                 <div className='lang-icon-container'>
                                     <img className='lang-icon' src='https://res.cloudinary.com/gregdusek/image/upload/v1615957741/Dev%20Language%20Icons/react_xjy6ou.svg' alt='svg'/>
@@ -108,7 +108,7 @@ const Portfolio = () => {
                         <img className="card-top" src="https://res.cloudinary.com/gregdusek/image/upload/v1621360015/Dev%20Site%20Images/MongooseStore_pca2e4.png" alt="" />
                         <div className="card-bottom">
                             <div className="card-title">Mongoose Store</div>    
-                            <p className="card-description">Greg's Guitars is a basic e-commerce application for my second class project. This project is an application built with NodeJS, Express, MongoDB, RESTful routing, and CRUD functionality. Professional or studio quality styling was a requirement as well. Postman was utilized to verify CRUD and RESTful route functionality worked properly.
+                            <p className="card-description">Greg's Guitars is a basic e-commerce application assignment for my second class project. This project is an application built with NodeJS, Express, MongoDB, RESTful routing, and CRUD functionality. Professional or studio quality styling was a requirement to mimic an e-commerce store. Postman was utilized to verify RESTful routing and CRUD functionality before deployment.
                             </p>
                             <div className="lang-used">
                                 <div className='lang-icon-container'>
