@@ -27,3 +27,14 @@
   font-size: 2.5vw;
   font-weight: 500;
 }
+
+.footer-text {
+  font-family: 'Inconsolata', monospace;
+  display: bottom;
+  justify-content: bottom;
+  width: auto;
+  height: auto;
+  margin: 1rem 1rem 1rem 1rem;
+  font-size: 1.1vh;
+  font-weight: 500;
+}
