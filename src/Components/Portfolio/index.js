@@ -99,7 +99,7 @@ const Portfolio = () => {
                             </div>
                             <div className="link-container">
                                 <a className="deployed-link" href="http://insta-inspire.herokuapp.com/">Live App</a>
-                                <a className="deployed-link" href="https://mekenziehayfordportfolio.herokuapp.com/instainspire">Frontend</a>
+                                <a className="deployed-link" href="https://github.com/mekahay/group_project_frontend">Frontend</a>
                                 <a className="deployed-link" href="https://github.com/dilyaj/insta_app">Backend</a>
                             </div>
                         </div>
