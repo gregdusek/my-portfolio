@@ -24,7 +24,7 @@ function App() {
           <Route path='/Contact' exact component={Contact} />
       </Switch>
       <div className="footer">
-        <p className="footer-text">DESIGNED BY GREG DUSEK Ⓒ 2021</p>
+        <p className="footer-text">DESIGNED & DEVELOPED BY GREG DUSEK Ⓒ 2021</p>
       </div>
     </div>
   );
