@@ -6,7 +6,7 @@
 
 body {
   overflow: hidden;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/gregdusek/image/upload/v1627497221/Dev%20Site%20Images/wallhaven-nkpopd_wdt1sk.jpg"); 
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("https://res.cloudinary.com/gregdusek/image/upload/v1627497221/Dev%20Site%20Images/wallhaven-nkpopd_wdt1sk.jpg"); 
 }
 
 .App {
