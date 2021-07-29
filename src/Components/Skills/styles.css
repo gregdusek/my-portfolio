@@ -15,19 +15,20 @@
     justify-content: center;
     width: 22%;
     height: auto;
-    margin: .5rem .5rem .5rem .5rem;
+    margin: 1rem 1rem 1rem 1rem;
     background-color: rgba(218, 102, 0, 0.6);
     box-shadow: 3px 3px black;
 }
 
 .columnType-title {
     display: flex;
+    flex-direction: center;
     justify-content: center;
-    width: 80%;
+    width: auto;
     margin: 1rem 1rem 1rem 1rem;
-    font-size: 1.05vw;
+    font-size: 1.10vw;
     font-weight: 700;
-    text-shadow: 3px 3px black;
+    text-shadow: 2px 2px black;
 }
 
 .skill-container {
