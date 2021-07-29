@@ -12,9 +12,9 @@ import Skills from './Components/Skills';
 function App() {
   return (
     <div className="App">
-      <Navigate />
-      {/* <About />
-      <Skills /> */}
+      <header>
+          <Navigate />
+      </header>
       <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/About' exact component={About} />
@@ -23,9 +23,6 @@ function App() {
           <Route path='/Portfolio' exact component={Portfolio} />
           <Route path='/Contact' exact component={Contact} />
       </Switch>
-      <div className="footer">
-        <p className="footer-text">DESIGNED & DEVELOPED BY GREG DUSEK Ⓒ 2021</p>
-      </div>
     </div>
   );
 }
