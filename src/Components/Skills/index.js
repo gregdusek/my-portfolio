@@ -5,9 +5,9 @@ const Skills = () => {
         <div className='page-container'>
             <h1 className='page-title'>Technical Skills</h1>
             <div className='skillsColumn-container'>
-                <div className='column-language'>
+                <div className='column'>
                     <h1 className='columnType-title'>Languages</h1>
-                        <div className='language-container'>
+                        <div className='skill-container'>
                             <div className='icon-container'>
                                 <img className='icon' src='https://res.cloudinary.com/gregdusek/image/upload/v1615957750/Dev%20Language%20Icons/html5_lmrgt0.svg' alt='svg'/>
                             </div>
@@ -28,9 +28,9 @@ const Skills = () => {
                             </div>
                         </div>
                 </div>
-                <div className='column-frontend'>
+                <div className='column'>
                     <h1 className='columnType-title'>Frontend</h1>
-                        <div className='frontend-container'>
+                        <div className='skill-container'>
                             <div className='icon-container'>
                                 <img className='icon' src='https://res.cloudinary.com/gregdusek/image/upload/v1615957741/Dev%20Language%20Icons/react_xjy6ou.svg' alt='svg'/>
                             </div>
@@ -51,9 +51,9 @@ const Skills = () => {
                             </div>
                         </div>
                 </div>
-                <div className='column-backend'>
+                <div className='column'>
                     <h1 className='columnType-title'>Backend</h1>
-                    <div className='backend-container'>
+                    <div className='skill-container'>
                             <div className='icon-container'>
                                 <img className='icon' src='https://res.cloudinary.com/gregdusek/image/upload/v1615957743/Dev%20Language%20Icons/nodejs-1_jtj3is.svg' alt='svg'/>
                             </div>
@@ -74,9 +74,9 @@ const Skills = () => {
                             </div>
                         </div>
                 </div>
-                <div className='column-databases'>
+                <div className='column'>
                     <h1 className='columnType-title'>Databases/Hosting</h1>
-                    <div className='databases-container'>
+                    <div className='skill-container'>
                             <div className='icon-container'>
                                 <img className='icon' src='https://res.cloudinary.com/gregdusek/image/upload/v1615957739/Dev%20Language%20Icons/postgresql_ltbseu.svg' alt='svg'/>
                             </div>
@@ -97,9 +97,9 @@ const Skills = () => {
                             </div>
                         </div>
                 </div>
-                <div className='column-tools'>
+                <div className='column'>
                     <h1 className='columnType-title'>Tools</h1>
-                    <div className='tools-container'>
+                    <div className='skill-container'>
                             <div className='icon-container'>
                                 <img className='icon' src='https://res.cloudinary.com/gregdusek/image/upload/v1615973500/Dev%20Language%20Icons/postman-logo-stacked_wgz311.svg' alt='svg'/>
                             </div>
