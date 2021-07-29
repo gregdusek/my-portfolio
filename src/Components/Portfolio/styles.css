@@ -18,6 +18,7 @@
     margin: .5rem .5rem .5rem .5rem;
     border-radius: 10px;
     box-shadow: 10px 5px 10px 5px rgba(0, 0, 0, 0.6);
+    background-color: rgba(218, 102, 0, 0.6);
 }
 .card-top {
     display: flex;
@@ -39,7 +40,7 @@
     justify-content: center;
     font-size: 1vw;
     font-weight: 600;
-    
+    text-shadow: 2px 2px black;
 }
 
 .card-description {
@@ -67,55 +68,25 @@
     height: 2vw;
     width: 2vw;
     border-radius: .5rem;
+    background-color: #f0f0f0;
 } 
 
 .link-container {
     display: flex;
     flex-direction: row;
-    width: 90%;
-    height: auto;
-    margin: auto;
     justify-content: space-evenly;
+    width: 95%;
+    height: auto;
+    margin: auto; 
 }
 
 .deployed-link {
     display: flex;
     justify-content: center;
     text-decoration: none;
+    width: auto;
     line-height: 1vw;
-    font-size: .75vw;    
-}
-
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 30%;
-    height: auto;
-    margin: .25rem auto;
-}
-
-.footer-icon-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 30%;
-    height: auto;
-    margin: .25rem auto;
-}
-
-.footer-icon {
-    display: flex;
-    justify-content: space-evenly;
-    height: 1.5vw;
-    width: 1.5vw;
-    margin: auto;
-}
-
-.footer-text{
-    display: flex;
-    flex-direction: center;
-    justify-content: center;
-    width: 70%;
-    margin: .25rem auto;
-    font-weight: 700;
+    font-size: .75vw;
+    color: #fff;
+    text-shadow: 2px 2px black;    
 }
