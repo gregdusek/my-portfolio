@@ -57,7 +57,8 @@ const Portfolio = () => {
                         <img className="card-top" src="https://res.cloudinary.com/gregdusek/image/upload/v1621302773/Dev%20Site%20Images/GOATflix_cljvkq.png" alt="" />
                         <div className="card-bottom">
                             <div className="card-title">GOATflix</div>    
-                            <p className="card-description"> GOATflix is my final project subimission and an ongoing project. The final project requirements included learning a new frontend or backend framework, language, or component, to be used in the project. GOATflix is movie search app built from React Redux, MongoDB, and queries data via The MovieDB API, and is styled with Styled Components. </p>
+                            <p className="card-description"> GOATflix is my final project subimission and an ongoing project. The final project requirements included learning a new frontend or backend framework, language, or component, to be used in the project. GOATflix is movie search app built from React Redux, MongoDB, and queries data via The MovieDB API, and is styled with Styled Components. Check back for updates.
+                            </p>
                             <div className="lang-used">
                                 <div className='lang-icon-container'>
                                     <img className='lang-icon' src='https://res.cloudinary.com/gregdusek/image/upload/v1615957741/Dev%20Language%20Icons/react_xjy6ou.svg' alt='svg'/>
