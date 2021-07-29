@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;900&display=swap');
+
 * {
   border: 2px solid black;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;900&display=swap');
+body {
+  overflow: hidden;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/gregdusek/image/upload/v1627497221/Dev%20Site%20Images/wallhaven-nkpopd_wdt1sk.jpg"); 
+}
 
 .App {
   display: flex;
@@ -10,19 +15,20 @@
   font-family: 'Inconsolata', monospace;
   justify-content: center;
   align-items: center;
-  width: 97vw;
-  height: auto;
-  margin: 1rem 1rem 1rem 1rem;
-
-  /* overflow: hidden; */
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: white;
 }
 
 .page-container {
   display: flex;
   flex-direction: column;
-  margin: 1rem auto;
-  max-width: 90%;
-  max-height: auto;
+  justify-content: top;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
 }
 
 .page-title {
@@ -34,15 +40,5 @@
   margin: 1rem 1rem 1rem 1rem;
   font-size: 2.5vw;
   font-weight: 500;
-}
-
-.footer-text {
-  font-family: 'Inconsolata', monospace;
-  display: bottom;
-  justify-content: bottom;
-  width: auto;
-  height: auto;
-  margin: 1rem 1rem 1rem 1rem;
-  font-size: 1.1vh;
-  font-weight: 500;
+  text-shadow: 3px 3px black;
 }
