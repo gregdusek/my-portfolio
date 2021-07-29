@@ -19,8 +19,9 @@
     font-weight: 900px;
     width: auto;
     height: auto;
-    margin: .10vw .10vw .10vw .10vw;
+    margin: .10vw .50vw .10vw .10vw;
     padding: .10vw .10vw .10vw .10vw;
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
     text-decoration-color: none;
 }
