@@ -24,7 +24,7 @@ const Experience = () => {
                                 <h1 className='column-title'>View my GitHub repositories</h1>
                         </div>
                         <div className='column-2'>
-                            <a href="https://drive.google.com/file/d/1_PAEFtsOY337rudwzPJkZxVEbnQCoYZE/view?usp=sharing" target="blank">
+                            <a href="https://docs.google.com/document/d/1ikF0x-zfTb9OnNFkxQmWpW9fha33AwBu/edit?usp=sharing&ouid=104543661577309889994&rtpof=true&sd=true" target="blank">
                                 <img className='resume-icon' src="https://res.cloudinary.com/gregdusek/image/upload/v1627412107/Dev%20Site%20Images/icons8-download-resume-100_qifajz.png" alt=""/>
                             </a>
                                 <h1 className='column-title'>Download my resume</h1>
